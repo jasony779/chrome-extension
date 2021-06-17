@@ -18,80 +18,76 @@
 			integrity="undefined"
 			crossorigin="anonymous"
 		/>
-        <style>
+        <!-- <style>
             html, body{
                 font-family: "Open Sans" , sans-serif;
                 font-size:14px;
-                margin: 0;
-                min-height: 180px;
+                margin: 0;              
                 padding: 0;
-                width:384px;
-                }
-
-                h1 {
+            }
+             h1 {
                     font-family: 'Menlo' , monospace;
-                    font-size: 22px;
+                    font-size: 40px;
                     font-weight: 400;
                     margin: 0;
                     color: rgb(15, 15, 153)
                 }
                 
-                img{
-                    width: 30px; 
+                .logo-icon{
+                    width: 100px; 
                 }
+                #theImage{
+                    width:50px;
+                    height:50px;
+                    z-index: -1;
+                }
+                /* #box{
+                    width: 50px;
+                    height:50px;
+                } */
 
-.modal-header {
+.wrapper {
     align-items:center;
-    border-bottom:0.5px solid
+    border-bottom:0.5px solid;
+    height: 2000px;
+    width: 2000px;
+    background-color: rgba(234, 235, 198, 0.651);
 }
 
 .modal-content {
-    padding:0 22px;
+    padding: 10px;
 }
 
 .modal-icons {
-    border-top: 0.5px olivedrab;
-    height: 50px; 
-    width:100%;
+    border-top: 5px olivedrab;
+    height: 100px; 
+    width:100px;
 }
 
 .version {
     color: #444;
-    font-size: 18px;
+    font-size: 10px;
+} -->
 
-}
-
-    .logo {
-        vertical-align: text-bottom;
-        margin-right: 12px;
-    }
-        </style>
+ 
+        <!-- </style> -->
 
 	</head>
 	<body>
-		<div class="modal-header">
-			<h1 class="logo">
+		<div id="wrapper">
+			<h1 class = "title">
 				<img src="128icon.png" alt="Eye Exercise" class="logo-icon" />
-				launcher <span class="version">(1.0.0)</span>
+				Angel iCare <span class="version">(1.0.0)</span>
 			</h1>
-		<h3>Seconds left:<span id="time-left">20</span></h3>
-        <button id="start-button">Start</button>
+		<h2> Seconds left : <span id="time-left"> 20 </span></h2>
+        <button id= "start-button"> Start </button>
         
         </div>
-		<div class="modal-content">
-			<p>Access to eye exercise</p>
-		</div>
-		<div class="modal-icons">
-			<div class="flex-icons">
-                <div class="flex">
-                    <p>Time to look away from screen!</p>
-                   <img src="eye-exercise.jpg" alt="_blank">
-                        <i class="fa fa-globe"></i>
-                    </a>
-                </div>
-            </div>
-		</div>
-
+		<!-- <div class="modal-content">
+            <p>  TIME TO RELAX YOUR SEXY EYES!! </p>
+		</div> -->
+		
+        
 
         <script> chrome.browserAction.onClicked.addListener(function() {
             chrome.windows.create({'url': 'redirect.html', 'type': 'popup'}, function(window) {
