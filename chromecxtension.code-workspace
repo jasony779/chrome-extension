@@ -1,0 +1,19 @@
+{
+    "folders": [
+		{
+			"name": "Chrome Extension",
+			"path": "/"
+		}
+	],
+    "settings": {
+        "files.hotExit": "off",
+        "vsliveshare.join.reload.workspaceId": "AF88C905A757EF107E1EB3B8F3DE9897A5D9",
+        "vsliveshare.join.reload.workspaceFolder": "/tmp/vsliveshare/tmp-AF88C905A757EF107E1EB3B8F3DE9897A5D9",
+        "vsliveshare.join.correlationId": "INVALID",
+        "extensions.ignoreRecommendations": true,
+        "files.autoSave": "off",
+        "typescript.tsc.autoDetect": "off",
+        "debug.allowBreakpointsEverywhere": true,
+        "html.autoClosingTags": false
+    }
+}

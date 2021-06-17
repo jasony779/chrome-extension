@@ -12,16 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		setInterval(function () {
 		
    
-			// if (timeLeft === -1) {
-			// 	console.log('thisis zero')
-				
-				// var div = document.getElementsByClassName('wrapper');
-				// // div.id = 'box';
-				// var img = document.createElement('IMG');
-				// img.src = 'random.png';
-				// img.id = 'theImage'
-				// div.appendChild(img);
-				// document.body.appendChild(div);
+		
 
 				if (timeLeft===0){
 	
@@ -37,11 +28,10 @@ document.addEventListener('DOMContentLoaded', () => {
 					document.body.appendChild(div);
 				
 				
-
+					
 				};
 				
-				// clearInterval((timeLeft = 0));
-			// }
+		
 			
 			timeLeftDisplay.innerHTML = timeLeft;
 			timeLeft--; 
@@ -52,14 +42,14 @@ document.addEventListener('DOMContentLoaded', () => {
 			
 				const div = document.getElementById('wrapper');
 				console.log(div);
-				div.innerHTML += 'hello world'
+				div.innerHTML += 'Time to relax your eyes!!'
 			
-				// div.id = 'box';
-				// var img = document.createElement('IMG');
-				// img.src = 'random.png';
-				// img.id = 'theImage'
-				// div.appendChild(img);
-				// document.body.appendChild(div);
+			// 	// div.id = 'box';
+			// 	// var img = document.createElement('IMG');
+			// 	// img.src = 'random.png';
+			// 	// img.id = 'theImage'
+			// 	// div.appendChild(img);
+			// 	// document.body.appendChild(div);
 			
 			
 			
