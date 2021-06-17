@@ -26,7 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
 					img.id = 'theImage'
 					div.appendChild(img);
 					document.body.appendChild(div);
-				
+					// window.resizeTo(1920, 768);
+					const url = chrome.extension.getURL('./pop1.html');
+					chrome.tabs.create({ url: url }, function () {});
 				
 					
 				};

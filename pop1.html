@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Deva&Jason</title>
+        <script src="main.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Open+Sans"
+			type="text/css"
+		/>
+		
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+			integrity="undefined"
+			crossorigin="anonymous"
+		/>
+       <style>
+           .thePicture{
+               width:1700px;
+                height:1700px;
+                
+           }
+           .wrapper{
+               display:flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+           }
+       </style>
+
+	</head>
+	<body>
+		<div id="wrapper">
+            <img src="128icon.png" alt="Eye Exercise" class="logo-icon" />
+			<h2 class = "title">
+				Time to relax your eyes!! 
+			</h2>
+	
+        <img id = "thePicture"src="./random.png" alt="">
+        
+        </div>
+
+		
+        
+
+        <script> chrome.browserAction.onClicked.addListener(function() {
+            chrome.windows.create({'url': 'redirect.html', 'type': 'popup'}, function(window) {
+            });
+         });</script>
+
+	</body>
+</html>

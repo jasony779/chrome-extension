@@ -18,7 +18,35 @@
 			integrity="undefined"
 			crossorigin="anonymous"
 		/>
-        <!-- <style>
+       
+
+	</head>
+	<body>
+		<div id="wrapper">
+			<h2 class = "title">
+				<img src="128icon.png" alt="Eye Exercise" class="logo-icon" />
+				20 Min-20 Sec <span class="version">(1.0.0)</span>
+			</h2>
+		<h3> Seconds left : <span id="time-left"> 20 </span></h3>
+        <button id= "start-button"> Start </button>
+        
+        </div>
+
+		
+        
+
+        <script> chrome.browserAction.onClicked.addListener(function() {
+            chrome.windows.create({'url': 'redirect.html', 'type': 'popup'}, function(window) {
+            });
+         });</script>
+
+	</body>
+</html>
+
+
+
+
+ <!-- <style>
             html, body{
                 font-family: "Open Sans" , sans-serif;
                 font-size:14px;
@@ -71,26 +99,3 @@
 
  
         <!-- </style> -->
-
-	</head>
-	<body>
-		<div id="wrapper">
-			<h2 class = "title">
-				<img src="128icon.png" alt="Eye Exercise" class="logo-icon" />
-				20 Min-20 Sec <span class="version">(1.0.0)</span>
-			</h2>
-		<h3> Seconds left : <span id="time-left"> 20 </span></h3>
-        <button id= "start-button"> Start </button>
-        
-        </div>
-
-		
-        
-
-        <script> chrome.browserAction.onClicked.addListener(function() {
-            chrome.windows.create({'url': 'redirect.html', 'type': 'popup'}, function(window) {
-            });
-         });</script>
-
-	</body>
-</html>
